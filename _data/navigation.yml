@@ -1,0 +1,11 @@
+pages:
+  - title: SNOW Portal
+    url: portal.html
+  - title: SNOW API
+    url: api.html
+  - title: Workflows
+    url: workflow.html
+  - title: SNOW Admin
+    url: admin.html
+  - title: Pitfalls
+    url: pitfall.html

@@ -1,0 +1,10 @@
+<h5>{{page.section}}</h5>
+<ul class="left">
+{% for post in site.posts %}
+  {% if post.tags contains {{page.filterDocumentation}} %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
