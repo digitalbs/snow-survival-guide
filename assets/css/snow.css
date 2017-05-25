@@ -55,7 +55,8 @@ a:hover {
 }
 
 aside ul a {
-	padding: 1rem 0;
+	padding-bottom: 1rem;
+	display: block;
 }
 
 .header-content {
