@@ -3,12 +3,12 @@
 		<a href="#" data-activates="mobile-menu" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
 		<ul class="top-fixed-nav right hide-on-med-and-down">
 			{% for item in site.data.navigation.pages %}
-		  	<li><a class="{% if page.section == item.title %}active {% endif %}" href="{{site.url}}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+		  	<li><a class="{% if page.section == item.title %}active {% endif %}" href="{{ site.baseurl }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
 			{% endfor %}
 		</ul>
 		<ul class="side-nav" id="mobile-menu">
 			{% for item in site.data.navigation.pages %}
-		  	<li><a class="{% if page.section == item.title %}active {% endif %}" href="{{site.url}}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+		  	<li><a class="{% if page.section == item.title %}active {% endif %}" href="{{ site.baseurl }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
 			{% endfor %}
 	    </ul>
 	</div>
