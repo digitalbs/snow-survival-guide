@@ -6,4 +6,4 @@ date: 2017-05-24
 tags: workflow
 filterDocumentation: workflow
 ---
-A workflow
+Workflow documentation
