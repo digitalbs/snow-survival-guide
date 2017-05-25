@@ -1,9 +1,10 @@
-<h5>{{page.section}}</h5>
+<h5>Topics</h5>
 <ul class="left">
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort:"order" %}
+{% for post in sorted_posts %}
   {% if post.tags contains {{page.filterDocumentation}} %}
   <li>
-    <a class="{% if page.title == post.title %}active {% endif %}" href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+    <a class="{% if page.title == post.title %}active {% endif %}" href="{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endif %}
 {% endfor %}

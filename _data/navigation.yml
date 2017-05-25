@@ -1,11 +1,13 @@
 pages:
-  - title: SNOW Portal
+  - title: Portal
     url: portal.html
-  - title: SNOW API
+  - title: API
     url: api.html
   - title: Workflows
     url: workflow.html
-  - title: SNOW Admin
+  - title: Studio
+    url: studio.html
+  - title: Admin
     url: admin.html
   - title: Pitfalls
     url: pitfall.html

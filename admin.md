@@ -1,6 +1,6 @@
 ---
-title: SNOW Admin
+title: Admin
 layout: subpage
-section: "SNOW Admin"
+section: "Admin"
 filterDocumentation: admin
 ---

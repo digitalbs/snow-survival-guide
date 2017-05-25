@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "Portal Pages"
-section: "SNOW Portal"
-date: 2017-05-24
+section: "Portal"
+date: 2017-05-25
 tags: portal
 filterDocumentation: portal
+order: 2
 ---
+### Portal Pages
+
 Portal page Documentation

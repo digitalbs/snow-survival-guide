@@ -1,6 +1,6 @@
 ---
-title: SNOW API
+title: API
 layout: subpage
-section: "SNOW API"
+section: "API"
 filterDocumentation: api
 ---
