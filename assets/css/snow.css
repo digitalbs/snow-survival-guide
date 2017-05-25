@@ -54,6 +54,10 @@ a:hover {
 	color: #1a237e;
 }
 
+aside ul a {
+	padding: 1rem 0;
+}
+
 .header-content {
 	position: relative;
 	z-index: 1;
