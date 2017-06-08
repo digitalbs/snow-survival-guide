@@ -75,6 +75,11 @@ aside ul a {
 }
 
 
+/** Images **/
+img {
+	width: 70%;
+}
+
 /** Snow Animation **/
 
 .snow {
