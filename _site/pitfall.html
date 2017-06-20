@@ -25,7 +25,7 @@
   <div class="snow"></div>
 </section>
 
-    <div class="right col">
+    <div class="right col snow-header-nav">
 	<div class="s6 m6">
 		<a href="#" data-activates="mobile-menu" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
 		<ul class="top-fixed-nav right hide-on-med-and-down">
@@ -62,30 +62,21 @@
 </div>
 
 
+
     <div class="row">
-      <div class="col s12 m2">
-        <aside>
-          <h5>Topics</h5>
-<ul class="left">
+	    <section class="col s12 m12">
+	      <h1 id="pitfalls-and-faqs">Pitfalls and FAQs</h1>
 
+<h4 id="why-are-my-rest-calls-failing-on-a-self-issued-certificate">Why are my REST calls failing on a self-issued certificate?</h4>
+<p>This usually occurs if ServiceNow is not accepting self-issued certificates. In order to allow self-issued certs, navigate to <code class="highlighter-rouge">System Properties &gt; Security </code> and scroll down to the Miscellaneous section. Check the <strong>By default, ServiceNow trusts a certificate’s Certificate Authority(CA)…</strong>.
+<img src="assets/img/screenshots/CA_Screenshot.png" alt="" /></p>
 
-  
+<h4 id="where-can-i-find-logs-in-servicenow">Where can I find logs in ServiceNow?</h4>
 
-  
-
-  
-
-  
-
-</ul>
-        </aside>
-      </div>
-      <section class="main-content col s12 m10">
-        
-  
-      </section>
+	    </section>
     </div>
-	<footer class="page-footer white row">
+
+    <footer class="page-footer white row">
     <div class="col m12 s12">
       <p class="site-footer-owner">SNOW Survival Guide is maintained by DXC Technology.</p>
     </div>
@@ -96,6 +87,7 @@
   crossorigin="anonymous"></script>
   <!-- Compiled and minified JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
- <script src="/assets/js/sideNav.js"></script>
+ <script src="/assets/js/common.js"></script>
+  
   </body>
 </html>

@@ -6,18 +6,22 @@ a:hover {
 	text-decoration: none;
 }
 
+strong {
+	font-weight: 700 !important;
+}
+
 .page-header {
 	position: relative;
-	z-index: 1;
+	z-index: 16;
 	background-color: #155799; background-image: linear-gradient(180deg, #155799, #9bc6f1, #fff);
 	padding: 1rem 1rem 10rem;
 	text-align: left;
 }
 
 .project-name a {
-	background: url(/snow-survival-guide/assets/img/survivalGuideReversed.png) no-repeat;
+	background: url(/assets/img/survivalGuideReversed.png) no-repeat;
     text-indent: -3000px;
-    position: relative;
+    position: absolute;
     display: block;
     background-size: contain;
     width: 15rem;
@@ -29,10 +33,26 @@ a:hover {
 }
 
 .top-fixed-nav, .button-collapse {
-	position: fixed;
-	top: 0;
-	z-index: 10;
+	position: absolute;
+	top: 1rem;
+	z-index: 16;
 	right: 1rem;
+}
+
+.fixed .top-fixed-nav, .fixed .button-collapse, .fixed .project-name a{
+	/*position: fixed;*/
+}
+
+.snow-header-nav {
+}
+
+.gradient {
+	height: 7rem;
+    width: 100%;
+    /*position: fixed;*/
+    top: 0;
+    padding-top: 5.5rem;
+    z-index: 10;
 }
 
 .button-collapse {
@@ -52,6 +72,11 @@ a:hover {
 
 .top-fixed-nav a:hover, .button-collapse:hover, .top-fixed-nav a.active, .side-nav a.active, aside a.active {
 	color: #1a237e;
+}
+
+.main-content ul li {
+	list-style: circle !important;
+	margin-left: 2.5em;
 }
 
 aside ul a {
@@ -86,6 +111,7 @@ img {
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
 	height: 100%;
 	position: absolute;
+	z-index: 9;
 	left: 0;
 	top: 0;
 	width: 100%;
