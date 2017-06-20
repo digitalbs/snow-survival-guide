@@ -19,7 +19,7 @@ strong {
 }
 
 .project-name a {
-	background: url(/assets/img/survivalGuideReversed.png) no-repeat;
+	background: url(/snow-survival-guide/assets/img/survivalGuideReversed.png) no-repeat;
     text-indent: -3000px;
     position: absolute;
     display: block;
